@@ -1,0 +1,470 @@
+.header {
+  margin: auto;
+  padding-left: 50%;
+}
+
+.header li {
+  display: inline;
+  margin: auto;
+}
+
+body {
+  background-color: #f3f4ed;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-size: 30pt;
+  color: #5d5d5d;
+  margin-left: -1px;
+}
+
+h4 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 8pt;
+  color: #5d5d5d;
+  padding-top: 10px;
+}
+
+h5 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 8pt;
+  color: #1C77B9;
+  margin-left: 30px;
+}
+
+.page {
+  background-color: #f3f4ed;
+  margin: auto;
+  max-width: 1650px;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  margin-bottom: 50px;
+}
+
+.banniere {
+  background-image: url("../../banniere-mareille.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 390px;
+  background-position: 25% 0;
+}
+
+.banniere h3 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #FFF;
+}
+
+.content {
+  max-width: 1125px;
+  margin: auto;
+}
+
+.contact-me {
+  padding-top: Opx;
+  display: block;
+  margin-left: 3.75%;
+  padding-top: 50px 40px;
+  max-width: 1125px;
+}
+
+.me {
+  display: inline-block;
+  width: 350px;
+}
+
+.name {
+  display: inline-block;
+  width: 650px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+.name h3 {
+  display: inline-block;
+}
+
+.contact {
+  margin-top: 1px;
+  padding: 15px 15px;
+  width: 400px;
+  background-color: #1C77B9;
+}
+
+.contact h3 {
+  text-decoration: none;
+}
+
+.email {
+  padding-top: 5px;
+}
+
+.principal {
+  max-width: 1125px;
+  margin: auto;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+.principal h3 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 12pt;
+  color: #5d5d5d;
+}
+
+.left-column {
+  width: 45%;
+  margin-left: 3.75%;
+  display: inline-block;
+  position: relative;
+  top: -90px;
+}
+
+.left-column header {
+  background-color: #1C77B9;
+  padding: 10px;
+}
+
+.left-column h2 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 22pt;
+  color: white;
+  padding-left: 10px;
+}
+
+.left-column h3 {
+  padding-left: 15px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.left-column h4 {
+  padding-left: 15px;
+  margin-top: 2.5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.left-column li {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #5d5d5d;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height: 20px;
+  margin-left: 35px;
+  list-style-type: circle;
+}
+
+.experience {
+  border: 2px solid #1C77B9;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  background-color: #f2f2f2;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.esperience-contenu {
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 10px;
+}
+
+.experience a {
+  color: #1C77B9;
+}
+
+.experience a:hover {
+  color: #3d98ff;
+}
+
+.experience a:active {
+  color: #0000FF;
+}
+
+.reseaux {
+  border: 2px solid #1C77B9;
+  background-color: #1C77B9;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.reseaux h3 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #FFF;
+  width: 300px;
+  padding-bottom: 5px;
+}
+
+.reseaux a {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #FFF;
+  width: 300px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.reseaux a:hover {
+  color: #e0dede;
+}
+
+.reseau-contenu {
+  display: inline-block;
+}
+
+.reseau-contenu-logo {
+  padding: 25px 25px;
+  width: 10%;
+  height: 10%;
+  display: inline-block;
+}
+
+.reseau-contenu-text {
+  display: inline-block;
+  float: right;
+  padding-top: 35px;
+  padding-right: 2%;
+}
+
+.right-column {
+  width: 45%;
+  margin-right: 3.75%;
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: -90px;
+}
+
+.right-column header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.right-column h2 {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 22pt;
+  color: #5d5d5d;
+  padding-left: 10px;
+}
+
+.recherche {
+  background-color: #f2f2f2;
+  border: 2px solid #1C77B9;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.recherche-texte {
+  margin-bottom: 30px;
+  margin-left: 15px;
+  width: 100%;
+}
+
+.recherche-page {
+  width: 85%;
+  display: inline-block;
+  padding-top: 3px;
+  padding-right: 55px;
+}
+
+.recherche-texte h3 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #5D5D5D;
+}
+
+.formation {
+  background-color: #f2f2f2;
+  border: 2px solid #1C77B9;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.formation li {
+  list-style-type: none;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #FFF;
+  background-color: #1C77B9;
+  padding: 12px 60px 12px 30px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.formation-lists {
+  margin-top: 22px;
+  width: 100%;
+}
+
+.left {
+  margin-left: 23px;
+  display: inline-block;
+  background-color: #f2f2f2;
+  margin-bottom: 25px;
+}
+
+.logiciels {
+  background-color: #f2f2f2;
+  border: 2px solid #1C77B9;
+  padding-bottom: 20px;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.logiciels li {
+  list-style-type: none;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #535353;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.portfolio {
+  background-color: #f2f2f2;
+  border: 2px solid #1C77B9;
+  margin-top: 25px;
+  -webkit-box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 22px 87px -24px rgba(0, 0, 0, 0.75);
+}
+
+.lien-text {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.portfolio a {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 12pt;
+  color: #1C77B9;
+  width: 300px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1649px) {
+  .page {
+    background-color: #F3F3F3;
+    margin: auto;
+    max-width: 1650px;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 1140px) {
+  .formation li {
+    display: block;
+  }
+  .formation li {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 12pt;
+    color: #FFF;
+    background-color: #1C77B9;
+    padding: 12px 60px 12px 30px;
+    margin: 5%;
+  }
+  .formation-lists {
+    margin-top: 22px;
+    width: 90%;
+  }
+  .left {
+    margin-left: 0px;
+    display: inline-block;
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+  .right {
+    margin-left: 0px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.5%;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 1050px) {
+  .principal {
+    width: 90%;
+    margin: auto;
+  }
+  .left-column {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+  .right-column {
+    width: 100%;
+    margin: auto;
+  }
+  .content {
+    width: 90%;
+  }
+  .contact-me {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 870px) {
+  .banniere {
+    background-size: 130%;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 670px) {
+  .banniere {
+    background-size: 150%;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 580px) {
+  .banniere {
+    background-size: 170%;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 515px) {
+  .banniere {
+    background-size: 190%;
+    height: 390px;
+  }
+}
+
+@media only screen and (max-width: 1649px) and (max-width: 460px) {
+  .banniere {
+    background-size: 220%;
+    height: 390px;
+  }
+}
+/*# sourceMappingURL=bastien-boisjot.css.map */
